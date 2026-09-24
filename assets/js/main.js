@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       var body = 'Name: ' + name + '%0D%0APhone: ' + phone +
                  '%0D%0AEquipment: ' + equip + '%0D%0A%0D%0A' + encodeURIComponent(msg);
-      var subject = encodeURIComponent('Service enquiry — ' + (name || 'Maya Enterprise website'));
+      var subject = encodeURIComponent('Service enquiry - ' + (name || 'Maya Enterprise website'));
       window.location.href = 'mailto:maya_enterprise2007@yahoo.co.in?subject=' + subject + '&body=' + body;
 
       var status = document.getElementById('formStatus');
