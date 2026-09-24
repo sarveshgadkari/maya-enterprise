@@ -186,8 +186,8 @@ h1, h2, h3, h4, h5 {
 .bt-ent {
   font-family: "Roboto Mono", ui-monospace, Consolas, monospace;
   font-weight: 600;
-  font-size: 0.52em;
-  letter-spacing: 0;
+  font-size: 0.66em;
+  letter-spacing: 0.09em;
   line-height: 0.9;
   margin-top: 0.06em;
   white-space: nowrap;
