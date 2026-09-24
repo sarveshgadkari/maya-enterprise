@@ -1,0 +1,17 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='825' viewBox='0 0 1200 825'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#1e4d6b'/>
+      <stop offset='60%' stop-color='#314556'/>
+      <stop offset='100%' stop-color='#9a6240'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='825' fill='url(#g)'/>
+  <g fill='none' stroke='rgba(255,255,255,0.2)' stroke-width='2'>
+    <rect x='90' y='110' width='480' height='300' rx='10'/>
+    <rect x='620' y='170' width='420' height='340' rx='10'/>
+    <circle cx='280' cy='560' r='78'/>
+    <path d='M140 700 H1040'/>
+  </g>
+  <text x='90' y='760' font-family='Arial,sans-serif' font-size='34' fill='rgba(255,255,255,0.75)'>Drive cabinets</text>
+</svg>
