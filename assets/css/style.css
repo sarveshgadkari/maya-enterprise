@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5 {
 
 .bt-maya,
 .bt-ent {
-  display: block;
+  display: inline;
   color: var(--navy);
 }
 
@@ -185,10 +185,9 @@ h1, h2, h3, h4, h5 {
 .bt-ent {
   font-family: "Roboto Mono", ui-monospace, Consolas, monospace;
   font-weight: 600;
-  font-size: 0.5em;
+  font-size: 0.6em;
   letter-spacing: 0.02em;
-  line-height: 1.1;
-  margin-top: 0.12em;
+  margin-left: 0.25em;
 }
 
 .hero h1.wordmark {
@@ -1419,4 +1418,11 @@ footer {
 
   .photo-panel:hover img,
   .card.has-media:hover .card-media img { transform: none; }
+}
+
+.footer-grid h5.wordmark-sm {
+  font-size: 26px;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1;
 }
