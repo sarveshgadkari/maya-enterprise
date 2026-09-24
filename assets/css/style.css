@@ -161,38 +161,61 @@ h1, h2, h3, h4, h5 {
 }
 
 .brand-text {
-  font-family: var(--font-head);
-  font-weight: 700;
-  font-size: 20px;
+  font-size: 38px;
   color: var(--navy);
-  line-height: 1.1;
+  line-height: 1;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.brand-text span {
+.bt-maya,
+.bt-ent {
   display: block;
-  font-family: var(--font);
-  font-weight: 500;
-  font-size: 12.5px;
-  color: var(--muted);
-  margin-top: 2px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  color: var(--navy);
+}
+
+.bt-maya {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 900;
+  font-size: 1em;
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+
+.bt-ent {
+  font-family: "Roboto Mono", ui-monospace, Consolas, monospace;
+  font-weight: 600;
+  font-size: 0.5em;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  margin-top: 0.12em;
+}
+
+.hero h1.wordmark {
+  font-size: clamp(44px, 5.6vw, 72px);
+  line-height: 1;
+  letter-spacing: 0;
+  margin-bottom: 18px;
+}
+
+.hero h1.wordmark::after {
+  content: "";
+  display: block;
+  width: 84px;
+  height: 4px;
+  margin-top: 14px;
+  background: var(--yellow);
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 26px;
+  gap: 32px;
   margin-left: auto;
 }
 
 .nav-links a {
-  font-size: 14.5px;
+  font-size: 17px;
   font-weight: 500;
   color: var(--muted);
   padding: 6px 0;
@@ -217,12 +240,12 @@ h1, h2, h3, h4, h5 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 42px;
-  padding: 0 16px;
+  min-height: 50px;
+  padding: 0 22px;
   border-radius: 8px;
   background: linear-gradient(90deg, var(--accent), #003070);
   color: #fff !important;
-  font-size: 14px;
+  font-size: 16.5px;
   font-weight: 600;
   line-height: 1;
   white-space: nowrap;
@@ -1090,12 +1113,9 @@ footer {
   }
 
   .brand-text {
-    font-size: 16px;
+    font-size: 28px;
   }
 
-  .brand-text span {
-    display: none;
-  }
 
   .nav-cta .cta-full { display: none; }
   .nav-cta .cta-short { display: inline; }
@@ -1265,7 +1285,7 @@ footer {
   }
 
   .brand-text {
-    font-size: 15px;
+    font-size: 24px;
   }
 
   .nav-cta {
@@ -1364,7 +1384,7 @@ footer {
 
 /* Small phones */
 @media (max-width: 380px) {
-  .brand-text { font-size: 14.5px; }
+  .brand-text { font-size: 22px; }
   .facts .fact {
     flex-direction: column;
     align-items: flex-start;
