@@ -166,6 +166,7 @@ h1, h2, h3, h4, h5 {
   line-height: 1;
   min-width: 0;
   white-space: nowrap;
+  display: inline-block;
 }
 
 .bt-maya,
@@ -179,19 +180,21 @@ h1, h2, h3, h4, h5 {
   font-weight: 900;
   font-size: 1em;
   letter-spacing: -0.01em;
-  line-height: 1;
+  line-height: 0.78;
 }
 
 .bt-ent {
   font-family: "Roboto Mono", ui-monospace, Consolas, monospace;
   font-weight: 600;
-  font-size: 0.5em;
-  letter-spacing: 0.02em;
-  line-height: 1.1;
-  margin-top: 0.12em;
+  font-size: 0.52em;
+  letter-spacing: 0;
+  line-height: 0.9;
+  margin-top: 0.06em;
+  white-space: nowrap;
 }
 
 .hero h1.wordmark {
+  display: inline-block;
   font-size: clamp(44px, 5.6vw, 72px);
   line-height: 1;
   letter-spacing: 0;
@@ -1419,4 +1422,13 @@ footer {
 
   .photo-panel:hover img,
   .card.has-media:hover .card-media img { transform: none; }
+}
+
+.footer-grid h5.wordmark-sm {
+  display: inline-block;
+  font-size: 30px;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1;
+  margin-bottom: 14px;
 }
