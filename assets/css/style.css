@@ -579,10 +579,7 @@ a.case-item > div {
   display: inline-block;
   width: fit-content;
   max-width: 100%;
-  background: #FFF4C2;
-  color: #3A5563;
-  padding: 8px 16px;
-  border-radius: 6px;
+  color: var(--navy);
 }
 
 .section-head p {
